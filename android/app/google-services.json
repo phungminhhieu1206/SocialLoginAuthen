@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "397564343881",
+    "project_id": "socialloginauthen",
+    "storage_bucket": "socialloginauthen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397564343881:android:dc98828388c7df84ef7198",
+        "android_client_info": {
+          "package_name": "com.socialloginauthen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397564343881-vbd2b7r4qbii7rdf16jgq6hktucaem6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialloginauthen",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "397564343881-ua40uifu6f41ii75smjopr6qus7n33et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7G2ZE_vzLMlPKodKpb9--YczAPKm46ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397564343881-ua40uifu6f41ii75smjopr6qus7n33et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
