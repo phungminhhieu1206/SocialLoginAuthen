@@ -1,0 +1,28 @@
+***** Cấu hình ios - firebase *****
+1. Cấu hình firebase
+- Mở project: chọn file <name-project>.xcworkspace
+- Click tên project --> Tab 'General' copy Bundle Identifier dạng "org.reactjs.native.example.SocialLoginAuthen" dán vào Apple bundle ID khi tạo app ios mới trên project firebase
+- Làm theo các bước hướng dẫn trong `React Native Firebase` (Search Google)
+
+- Tải file 'GoogleService-Info.plist' về Download, vào Xcode chuột phải thư mục name-project/name-project chọn 'Add to ...'
+
+---- Tiếp tục làm theo các bước trong `React Native Firebase` (Search Google)
+    + Quan trọng nhất là file `Podfile`
+
+---- Cấu hình pod sau đó:
+    + cd ios
+    + pod install --repo-update
+
+---- Chạy thử project ios: npx react-native run-ios
+(Chạy project lên ok là cấu hình firebase thành công !)
+
+2. Cấu hình GoogleSignIn (Search: google-signin -> link github)
+-- 2.1: Cài đặt: add các package cần thiết của GoogleSignIn cho ios (chọn add theo cách dùng cocoapods)
+-- 2.2: Cấu hình dự án của Google
+    + Chính là bước add tệp GoogleService-Info.plist
+-- 2.3: Cấu hình XCode để đọc URLScheme
+    + Project Xcode --> Tab 'Info', add thêm URL Types với URL Schemes copy từ REVERSED_CLIENT_ID trong file GoogleService-Info.plist <dòng dưới> (e.g: com.googleusercontent.apps.397564343881-v0hjfbvucho88j481gci370rn9qntcab)
+
+DONE
+
+
